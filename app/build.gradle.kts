@@ -53,6 +53,7 @@ android {
 
 dependencies {
     implementation("com.google.dagger:hilt-android:2.44")
+    implementation(project(":GoCardlessSDK"))
     kapt("com.google.dagger:hilt-android-compiler:2.44")
 
     // Retrofit
@@ -61,6 +62,7 @@ dependencies {
     implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
     implementation("com.google.code.gson:gson:2.8.9")
 
+    implementation("tv.superawesome.sdk.publisher:superawesome-base:9.3.1")
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
     implementation("androidx.lifecycle:lifecycle-runtime-compose:2.6.2")

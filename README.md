@@ -1,3 +1,3 @@
-# MVVMApp
+# GoCardless SDK Example App
 
-The Model-View-ViewModel (MVVM) architecture is a powerful pattern used in Android development to separate responsibilities and enhance code maintainability. With the integration of Kotlin Flow, managing data streams becomes seamless and efficient.
+The GoCardless Android SDK is a tool that enables developers to integrate GoCardless payments into their Android applications. To help developers get started, a sample app has been created that demonstrates how to use the SDK. The app provides a clear and practical example of how to implement GoCardless payments within an Android app.
